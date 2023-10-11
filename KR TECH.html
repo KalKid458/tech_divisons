@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1:5500/Home%20page.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAVID'S TECH DIVISION</title>
+    
+<link rel="stylesheet" href="Colours.css"></head>
+<body>
+	
+    <h2>
+    <header>
+       DAVID'S TECH DIVISION
+    </header>    
+    <p>
+Welcome to DAVID'S TECH DIVISION website where you will learn more about the services
+that we provide
+    </p>
+  <header>
+    MYSQL(My Server Query Language)
+  </header>
+  <p>
+  This is a system that allows records to be saved automantically just by the user and is saved on a main computer.
+  It is a fast and secure method which take no time at all and since information is saved on a computer there is no need to photocopy extra documents.
+  Requesting for information on this software is fast and requires not much knowlegde in computer technology.Information 
+  and this server can also be edited in cases such as correcting data.  
+  </p>  
+  <header>
+    Jailbreaking
+  </header>
+    <p>
+This allows you to install/download apps from any platform including the apple store on IOS devices.
+    </p>
+    </h2>
+	<h1>
+		<div id="jailB" > 
+	<label id="jail">Mobile services</label><br>
+	<label id="phone"></label><br>
+   <button id="display1">Set booking</button></div> 
+
+  
+
+        <div id="webD">
+	<label id="web">web development</label><br>
+	<label id="WebDEV"></label><br>
+	<button id="display2">Set booking</button>
+    
+            </div>
+
+<div id="SQLT">
+	<label id="SQL">MYSQL Set-up</label><br>
+	<label id="SQL1"></label><br>
+	<button id="display3">Set booking</button>
+
+	
+</div>
+	</h1>
+	<script src="functions.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
